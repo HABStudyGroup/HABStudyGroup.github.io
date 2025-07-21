@@ -2,6 +2,7 @@
 title: "About"
 layout: "about"
 url: "/about/"
+date: '2025-07-08T22:51:01+09:00'
 summary: qaa
 author: ["Akitek"]
 cover:

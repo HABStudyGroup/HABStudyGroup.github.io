@@ -2,6 +2,7 @@
 title: "Member"
 layout: "member"
 url: "/member/"
+date: '2025-07-08T22:51:01+09:00'
 summary: member
 author: ["Akitek"]
 cover:
