@@ -1,0 +1,159 @@
+baseURL: "https://HABStudyGroup.github.io/"
+languageCode: "ja-JP"
+title: HAB (Hub a Blah'st) #（仮）勉強共有会
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Hub a Bla“h”st # （仮）勉強共有会
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false # dark/light の変更ボタンを表示するかどうか
+
+  ShowReadingTime: true      # 各記事の読み終わるまでの時間を表記するかどうか
+  ShowShareButtons: false    # 各記事の下部に表示するshareボタンの表示の有無
+  ShowPostNavLinks: true     # 前後のポストへのNavigationを表示するかどうか
+  ShowBreadCrumbs: true      # 各記事の階層関係を表示するかどうか
+  ShowCodeCopyButtons: false # 記事内のコードをコピーするボタンを表示するかどうか
+  ShowWordCount: true        # 各記事の文字数を表記するかどうか
+  ShowRssButtonInSectionTermList: true # RSSボタンの表示の有無
+  UseHugoToc: true # 
+  disableSpecial1stPost: false
+  disableScrollToTop: false # 最上部へのスクロールボタンの表示の有無
+  comments: true
+  hidemeta: false # Search対象から各記事のmeta情報を隠すかどうか
+  hideSummary: false # Search対象から各記事のSummaryを隠すかどうか (個別に隠すなら各記事でどうぞ)
+  showtoc: true  # TOCを表示するかどうか
+  tocopen: false # 初期で展開しておくかどうか
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label: # ヘッダー上部のタイトル情報
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome!! \U0001F44B"
+    Content: >
+      👋 Hub a Blah'st (HAB) へようこそ！！
+
+      - 現在、サイトを準備中です 😇
+
+      - それまでは過去の議事録を参照してください！！
+
+  socialIcons: # ホーム画面に表示する各種サービスアイコン
+    - name: x
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
+    - name: discord
+      url: "https://discord.gg/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true            # カバー画像をそもそも表示するかどうか
+    hiddenInList: true      # Home および リストページ　でのカバー表示をするかどうか
+    hiddenInSingle: false   # 記事単体ページでのカバー画像を表示するかどうか
+    responsiveImages: false # 画像サイズを小さくするかどうか
+    linkFullImages: false   # 画像にハイパーリンクをつけるかどうか
+
+  editPost: # 記事への編集依頼を出すボタン
+    URL: "https://github.com/<path_to_repo>/content" # 当該記事のGithubpageへ飛ぶ
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts: # search機能に関する設定
+    isCaseSensitive: false # 大文字小文字を識別するかどうか
+    shouldSort: true # スコアで記事をソートするかどうか
+    location: 0 # 
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # 検索結果の最大表示数　refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"] # 記事ごとの検索対象となる要素（ここに含めた要素の中の文字を検索する）
+
+menu:
+  main: # ヘッダーのタブ情報
+    - identifier: about
+      name: about
+      url: about/
+      weight: 10
+    - identifier: member
+      name: member
+      url: member/
+      weight: 11
+    - identifier: search
+      name: search
+      url: search/
+      weight: 12
+    - identifier: tags
+      name: tags
+      url: tags/
+      weight: 13
+    - identifier: archives
+      name: archives
+      url: archives/
+      weight: 14
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
