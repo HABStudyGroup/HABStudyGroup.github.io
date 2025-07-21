@@ -3,7 +3,6 @@ title: "Member"
 layout: "member"
 url: "/member/"
 summary: member
-date: 2025-07-09
 author: ["Akitek"]
 cover:
   image: "images/tn.png" # 記事にカバーをつけたい場合 [assets/imagesに配置]
