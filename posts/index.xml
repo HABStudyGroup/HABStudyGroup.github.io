@@ -38,7 +38,7 @@
 &lt;li&gt;
 &lt;p&gt;Q1: Ollama は　MCPみたいなはなし？&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;{%preview &lt;a href=&#34;https://zenn.dev/kazuwombat/articles/d8789724f10092&#34;&gt;https://zenn.dev/kazuwombat/articles/d8789724f10092&lt;/a&gt; %}&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/kazuwombat/articles/d8789724f10092&#34;&gt;https://zenn.dev/kazuwombat/articles/d8789724f10092&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;APIの入力をLLMで整形する&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -89,7 +89,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;{%preview &lt;a href=&#34;https://scrapbox.io/craftmemo/Python&#34;&gt;https://scrapbox.io/craftmemo/Python&lt;/a&gt;_で_離散フーリエ変換 %}&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://scrapbox.io/craftmemo/Python&#34;&gt;https://scrapbox.io/craftmemo/Python&lt;/a&gt;_で_離散フーリエ変換&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
