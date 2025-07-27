@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>HAB (Hub a Blah&#39;st)</title>
-    <link>http://localhost:1313/</link>
+    <link>https://HABStudyGroup.github.io/</link>
     <description>Recent content on HAB (Hub a Blah&#39;st)</description>
     <image>
       <title>HAB (Hub a Blah&#39;st)</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://HABStudyGroup.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://HABStudyGroup.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>ja-JP</language>
     <lastBuildDate>Sun, 27 Jul 2025 13:21:32 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://HABStudyGroup.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📙第三回勉強共有会</title>
-      <link>http://localhost:1313/posts/20250725/</link>
+      <link>https://HABStudyGroup.github.io/posts/20250725/</link>
       <pubDate>Sun, 27 Jul 2025 13:21:32 +0900</pubDate>
-      <guid>http://localhost:1313/posts/20250725/</guid>
+      <guid>https://HABStudyGroup.github.io/posts/20250725/</guid>
       <description>&lt;h2 id=&#34;第三回勉強共有会&#34;&gt;第三回勉強共有会&lt;/h2&gt;
 &lt;h3 id=&#34;参加者&#34;&gt;参加者&lt;/h3&gt;
 &lt;ul&gt;
@@ -78,9 +78,9 @@
     </item>
     <item>
       <title>📘第二回勉強共有会</title>
-      <link>http://localhost:1313/posts/20250715/</link>
+      <link>https://HABStudyGroup.github.io/posts/20250715/</link>
       <pubDate>Tue, 15 Jul 2025 22:51:01 +0900</pubDate>
-      <guid>http://localhost:1313/posts/20250715/</guid>
+      <guid>https://HABStudyGroup.github.io/posts/20250715/</guid>
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;第二回勉強共有会&#34;&gt;第二回勉強共有会&lt;/h2&gt;
 &lt;h3 id=&#34;参加者&#34;&gt;参加者&lt;/h3&gt;
@@ -158,9 +158,9 @@
     </item>
     <item>
       <title>📕第一回勉強共有会</title>
-      <link>http://localhost:1313/posts/20250707/</link>
+      <link>https://HABStudyGroup.github.io/posts/20250707/</link>
       <pubDate>Tue, 08 Jul 2025 23:15:31 +0900</pubDate>
-      <guid>http://localhost:1313/posts/20250707/</guid>
+      <guid>https://HABStudyGroup.github.io/posts/20250707/</guid>
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;第一回勉強共有会&#34;&gt;第一回勉強共有会&lt;/h2&gt;
 &lt;ul&gt;
@@ -246,16 +246,16 @@
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://HABStudyGroup.github.io/about/</link>
       <pubDate>Tue, 08 Jul 2025 22:51:01 +0900</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://HABStudyGroup.github.io/about/</guid>
       <description>qaa</description>
     </item>
     <item>
       <title>Member</title>
-      <link>http://localhost:1313/member/</link>
+      <link>https://HABStudyGroup.github.io/member/</link>
       <pubDate>Tue, 08 Jul 2025 22:51:01 +0900</pubDate>
-      <guid>http://localhost:1313/member/</guid>
+      <guid>https://HABStudyGroup.github.io/member/</guid>
       <description>member</description>
     </item>
   </channel>
