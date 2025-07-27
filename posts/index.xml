@@ -2,22 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on HAB (Hub a Blah&#39;st)</title>
-    <link>https://HABStudyGroup.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on HAB (Hub a Blah&#39;st)</description>
     <image>
       <title>HAB (Hub a Blah&#39;st)</title>
-      <url>https://HABStudyGroup.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://HABStudyGroup.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.9</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 15 Jul 2025 22:51:01 +0900</lastBuildDate>
-    <atom:link href="https://HABStudyGroup.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jul 2025 13:21:32 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📙第三回勉強共有会</title>
+      <link>http://localhost:1313/posts/20250725/</link>
+      <pubDate>Sun, 27 Jul 2025 13:21:32 +0900</pubDate>
+      <guid>http://localhost:1313/posts/20250725/</guid>
+      <description>&lt;h2 id=&#34;第三回勉強共有会&#34;&gt;第三回勉強共有会&lt;/h2&gt;
+&lt;h3 id=&#34;参加者&#34;&gt;参加者&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/akitek&#34;&gt;Akitek&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/soyster&#34;&gt;masamune&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenn.dev/dozenkomeda&#34;&gt;shu_matsu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;紹介記事&#34;&gt;紹介記事&lt;/h3&gt;
+&lt;h4 id=&#34;1-アニメーションツールmanimの紹介&#34;&gt;1. &lt;a href=&#34;https://zenn.dev/soyster/articles/9812b4456cd7b5&#34;&gt;アニメーションツール「Manim」の紹介&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;3Blue1Brown&amp;quot;で使用されている数学可視化ツール&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;self.add&lt;/code&gt;で静図, &lt;code&gt;self.play&lt;/code&gt;でアニメーションをつくる&lt;/li&gt;
+&lt;li&gt;Q1: &lt;code&gt;def construct&lt;/code&gt;が実行部
+&lt;ul&gt;
+&lt;li&gt;A1: &lt;code&gt;def construct&lt;/code&gt;のなかに各種のアニメーション要素を入れて実行している&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Q2: 一アニメーションごとにクラスを定義するのか
+&lt;ul&gt;
+&lt;li&gt;A2: おそらくそう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一般的な人は興味をもたないだろうか？&lt;/li&gt;
+&lt;li&gt;動画で表示するのは珍しいかも, 関数表示ソフトはたくさん&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-時空間データと確率場の勉強&#34;&gt;2. &lt;a href=&#34;https://zenn.dev/dozenkomeda/articles/20a9e6f38cef16&#34;&gt;時空間データと確率場の勉強&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Q1: 場所に依存しない, ってこと？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A1: 観測地点間の距離だけで分布が決定する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Q2: Zh(s)はSにのみ依存するのか？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A2: hを固定した状態で(二つの観測地点間の距離）で、ある観測地点（S)の状態を表現している&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Q3: 未観測地点のデータを予測する上で使用するのか&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A3: Zh(S)が決まれば, 未観測地点(s&amp;rsquo;)に対し, 観測地点(s)からの距離hが判明すれば, 未観測地点(s&amp;rsquo;)での観測値を推定できる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;UAVを用いた3次元確率場の予測&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-prompt-engineering-guideで体系的に学ぶllmプロンプトエンジニアリング&#34;&gt;3. &lt;a href=&#34;https://zenn.dev/akitek/articles/36b8bf5ba4af4b&#34;&gt;【Prompt Engineering Guide】で体系的に学ぶ　LLMプロンプトエンジニアリング①&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;メタ学習ってなんで成り立っているのか？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>📘第二回勉強共有会</title>
-      <link>https://HABStudyGroup.github.io/posts/20250715/</link>
+      <link>http://localhost:1313/posts/20250715/</link>
       <pubDate>Tue, 15 Jul 2025 22:51:01 +0900</pubDate>
-      <guid>https://HABStudyGroup.github.io/posts/20250715/</guid>
+      <guid>http://localhost:1313/posts/20250715/</guid>
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;第二回勉強共有会&#34;&gt;第二回勉強共有会&lt;/h2&gt;
 &lt;h3 id=&#34;参加者&#34;&gt;参加者&lt;/h3&gt;
@@ -95,9 +158,9 @@
     </item>
     <item>
       <title>📕第一回勉強共有会</title>
-      <link>https://HABStudyGroup.github.io/posts/20250707/</link>
+      <link>http://localhost:1313/posts/20250707/</link>
       <pubDate>Tue, 08 Jul 2025 23:15:31 +0900</pubDate>
-      <guid>https://HABStudyGroup.github.io/posts/20250707/</guid>
+      <guid>http://localhost:1313/posts/20250707/</guid>
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;第一回勉強共有会&#34;&gt;第一回勉強共有会&lt;/h2&gt;
 &lt;ul&gt;
